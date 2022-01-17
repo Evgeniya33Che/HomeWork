@@ -1,0 +1,50 @@
+1)Посмотреть где я =pwd
+2)Создать папку =mkdir Papka_1
+3)Зайти в папку =cd Papka_1
+4)Создать три папки =mkdir Name_1 Name_2 Name_3
+5)Зайти в любую папку =cd Name_1
+6)Создать 5 файлов(3 txt,2 json) =touch eat.txt sleep.txt repeat.txt sun.json moon.json
+7)Создать три папки =mkdir f_1 f_2 f_3
+8)Вывести список содержимого папки =ls -la
+9)+Открыть любой txt файл =vim sleep.txt
+10)+написать туда что-нибудь,любой текст. =INSERT 1)Поучить теорию. 
+						  2)Пытаться запомнить всё.)
+						  3)Сделать дз.
+						  4)Понять тему. esc :wq enter
+11)+сохранить и выйти. =:wq enter
+12)Выйти из папки на уровень выше =cd ..
+13)переместить любые 2 файла, которые вы создали, в любую другую папку. =mv Name_1/moon.json Name_2/moon.json 
+									 mv Name_1/eat.txt Name_2/eat.txt 
+14)скопировать любые 2 файла, которые вы создали, в любую другую папку. =cp Name_2/moon.json Name_3/moon.json
+									 cp Name_2/eat.txt Name_3/eat.txt
+15)Найти файл по имени =find . -name "sleep.txt"
+16)просмотреть содержимое в реальном времени (команда grep) изучите как она работает. =grep -w "Поучить" Name_1
+										       cd Name_1
+										       grep -w "Поучить" sleep.txt
+17)вывести несколько первых строк из текстового файла =head -n 2 sleep.txt
+18)вывести несколько последних строк из текстового файла =tail -n 2 sleep.txt
+19)просмотреть содержимое длинного файла (команда less) изучите как она работает. =less sleep.txt
+20)вывести дату и время =date
+
+Задание *
+1) Отправить http запрос на сервер. =curl http://162.55.220.72:5005/terminal-hw-request
+				     curl "http://162.55.220.72:5005/terminal-hw-request?name="Zhenya"&age=29"
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 =bash
+									       vim bash
+									       # #!/bin/bash
+
+										cd f_1
+										mkdir 1 2 3
+										cd 1
+										touch g.txt h.txt l.txt a.json b.json
+										mkdir 4 5 6
+										ls -la
+										mv g.txt a.json 4/
+										esc :wq
+										
+
+										./bash
+
+									       
+

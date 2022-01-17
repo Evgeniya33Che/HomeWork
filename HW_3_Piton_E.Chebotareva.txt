@@ -1,0 +1,52 @@
+обновленное 1 дз по питону
+1) Создать переменную типа String == 
+string = "Hello Earth"
+print(type(string), string)
+
+2) Создать переменную типа Integer == 
+f = 33.1
+print(type(int(f)), int(f))
+
+3) Создать переменную типа Float ==
+a = 51.3
+print(type(float(a)), float(a))
+
+4) Создать переменную типа Bytes ==
+b = bytes(8)
+print(type(b), b)
+
+5) Создать переменную типа List ==
+months = ['January','February','March','April']
+print(type(months), months)
+
+6) Создать переменную типа Tuple ==
+four_tuple = ("one","two","three","four")
+print(type(four_tuple) ,four_tuple)
+
+7) Создать переменную типа Set ==
+pets = {'dogs',"cats","mouses","birds"}
+print(type(pets), pets)
+
+8. Создать переменную типа Frozen set ==
+fz = frozenset(months)
+print(type(fz), fz)
+
+9) Создать переменную типа Dict ==
+dict = {'marvel_hero':'Spider_man','dc_hero':'Batman','dark_horse_hero':'Hellboy'}
+print(type(dict), dict)
+
+10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных. == 
+print(type)(переменная), переменная)
+Run HW
+
+11) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль. ==
+q = "qwerty_forever"
+bw = "black&white"
+z = q + bw
+print(z)
+
+12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую) == 
+print(bw,f)
+
+13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс) == 
+print("Password" + q + str(f))
