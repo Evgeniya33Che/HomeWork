@@ -2,14 +2,14 @@
 - Postman == git branch Postman
 - Jmeter == git branch Jmeter
 - CheckLists == git branch CheckLists
-- Bag Reports == git branch Bag_Reports
+- Bag Reports == git branch Bug_Reports
 - SQL == git branch SQL
 - Charles == git branch Charles
 - Mobile testing == git branch Mobile_testing
 
 2. Запушить все ветки на внешний репозиторий == git push --all
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта == 
-git checkout Bag_Reports
+git checkout Bug_Reports
 touch Bug.txt 
 vim Bug.txt
 INSERT
@@ -19,17 +19,17 @@ esc/:wq
 4. Запушить структуру багрепорта на внешний репозиторий == 
 git add . Bug.txt
 git commit -m 'add Bug.txt'
-git push --set-upstream origin Bag_Reports
+git push --set-upstream origin Bug_Reports
 
 5. Вмержить ветку Bag Reports в Main == 
 1 способ:через графический интерфейс.
 2 способ:терминал:
 git checkout main
-git merge Bag_Reports
-git checkout Bag-Reports
+git merge Bug_Reports
+git checkout Bug-Reports
 
 6. Запушить main на внешний репозиторий. ==
-через графический интерфейс "Merge pull request"
+git push -u origin main
 
 7. В ветке CheckLists набросать структуру чек листа. ==
 git checkout CheckLists
