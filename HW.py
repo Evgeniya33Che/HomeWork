@@ -49,17 +49,5 @@ else:
 
 print("Total basket cost including shipping is " + str(customer_basket_cost))
 
-l = [string, f, a, b, months, four_tuple, pets, fz, dict]
-
-for i in range(len(l)):
-    print(f'{l[i]} -- {type(l[i])}')
-    print("_"*57, '\n', "-"*25, " 11 ", "-"*24)
-
-one = 234
-two = 35
-three = one + two
-print(three)
-
-print((7 + 12)**3 + 7 * 4 - 44 / 2**4)
 
 
