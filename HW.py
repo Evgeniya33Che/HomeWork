@@ -49,5 +49,3 @@ else:
 
 print("Total basket cost including shipping is " + str(customer_basket_cost))
 
-
-
